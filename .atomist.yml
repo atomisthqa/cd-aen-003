@@ -1,0 +1,19 @@
+---
+kind: "operation"
+client: "atomist-bot"
+generator:
+  name: "CreateAemMultimoduleProject"
+  group: "com.adobe.people.jedelson"
+  artifact: "aem-rugs"
+  version: "0.1.0"
+  origin:
+    repo: "https://github.com/justinedelson/aem-rugs"
+    branch: "master"
+    sha: "4ac8ec7"
+  parameters:
+    - "project_name": "cd-aen-003"
+    - "group_id": "com.atomist"
+    - "content_package_group": "test"
+    - "apps_folder_name": "Test"
+    - "aem_version": "6.1"
+
